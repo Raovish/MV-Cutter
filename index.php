@@ -151,7 +151,7 @@
    
 
     <div class="para"> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas autem fuga odit ab, dolores dolore delectus dolorum incidunt quos cupiditate necessitatibus! Iusto a odit numquam at. Aspernatur ipsa amet temporibus. Molestias accusantium modi consequatur amet ex atque officia totam minus sapiente minima? Eius distinctio pariatur corporis inventore, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo, aspernatur nulla placeat iusto non velit exercitationem neque excepturi vel suscipit, quam reprehenderit magnam voluptas aliquam adipisci ipsam, distinctio labore porro! Excepturi consequatur totam quis esse placeat perferendis, pariatur ut? Libero saepe voluptatum corrupti cupiditate non ea? Illum, quae odio. itaque neque? Blanditiis.  </p>
+    <p>This tool will take a DNA sequence and find the large, non-overlapping open reading frames using the E.coli genetic code and the sites for all Type II and commercially available Type III restriction enzymes that cut the sequence just once. By default, only enzymes available from NEB are used, but other sets may be chosen. Just enter your sequence and "submit". Further options will appear with the output. The maximum size of the input file is 1 MByte, and the maximum sequence length is 300 KBases. </p>
 </div><br><br>
  <div class="container">
 
@@ -166,23 +166,20 @@
         <td><input type="text" id="space" name="genbanknumber" required></td>
     </tr>
     <tr>
-        <td><br> Name of Sequence &nbsp; <br></td>
+        <td><br> Name of Sequence &nbsp; <br>(optional)</td>
         <td><input type="text" id="space" name="nameofsequence" ></td> 
     </tr>
     <tr>
         <td><br> Fasta Sequence &nbsp; <br>(optional)<br></td>
         <!-- <td><input type="text" class="space" name="fastasequence" rows="8" cols="70"></td> -->
-        <td><textarea id="space" name="fastasequence" cols="70" rows="5"></textarea></td>
+        <td><br><textarea id="space" name="fastasequence" cols="70" rows="5"></textarea></td>
     </tr>
     <tr>
         <td colspan="2"><input type="submit" class="submit" name="submit" value="Submit"></td>
     </tr>
 </table>
-</div>
- 
- 
- 
-<footer class="footer">&#169;&nbsp;Copyright MVCUTTER All Rights Reserved</footer>
+</div> <br>
+ <footer class="footer">&#169;&nbsp;Copyright MVCUTTER All Rights Reserved</footer>
 </form> 
  
 </body>

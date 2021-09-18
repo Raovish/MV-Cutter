@@ -31,7 +31,7 @@
 <form action="homedata.php" method="post">
 
  
-   <input type="submit"  value="ClickMe" name="submit" <h1>&nbsp;&nbsp;Copy and search it on homepage  <a href="index.php">Home</a></h1> <br><br>
+   <input type="submit"  value="Show Data" name="submit" <h1>&nbsp;&nbsp;<-- Click Here | Copy Genbanknumber and search it on homepage  <a href="index.php">Home</a></h1> <br><br>
    </div>
 </form>
 
